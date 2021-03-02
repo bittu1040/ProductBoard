@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ProductBoard';
+
+  isDarkTheme= true;
+  toggleTheme(){
+    this.isDarkTheme=!this.isDarkTheme;
+  }
 }
